@@ -1,7 +1,9 @@
-#data-structures
+# data-structures
 
-##First sprint
+## First sprint
+
 Implement both stack and queue data structures in each of four instantiation styles. 
 
-##Second sprint
+## Second sprint
+
 Implement Linked List, Tree, Graph, Set, Hash Table and Binary Search Tree
