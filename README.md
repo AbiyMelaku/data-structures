@@ -1,2 +1,7 @@
 #data-structures
-This is a project I completed as a student at [hackreactor](http://hackreactor.com). This project was worked on with a pair.
+
+##First sprint
+Implement both stack and queue data structures in each of four instantiation styles. 
+
+##Second sprint
+Implement Linked List, Tree, Graph, Set, Hash Table and Binary Search Tree
