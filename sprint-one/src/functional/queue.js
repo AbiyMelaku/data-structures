@@ -3,16 +3,26 @@ var Queue = function() {
 
   // Use an object with numeric keys to store values
   var storage = {};
+  
+  //pointers for first and last, also providing numeric keys
+  var first = 0;
+  var last = 0;
 
   // Implement the methods below
-
   someInstance.enqueue = function(value) {
+    storage[last] = value;
+    last++;
   };
 
   someInstance.dequeue = function() {
+    var result = storage[first];
+    if ( last > first ) { first++; }
+    return result;
+  
   };
 
   someInstance.size = function() {
+    return last - first;
   };
 
   return someInstance;
